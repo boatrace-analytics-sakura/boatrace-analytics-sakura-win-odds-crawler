@@ -17,7 +17,7 @@ $ composer require boatrace-analytics-cherry-blossom/boatrace-analytics-cherry-b
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Boatrace\Analytics\Cherry\Blossom\Crawler;
+use Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawler;
 
 var_dump(Crawler::crawlOdds('2017-03-31')); // 2017年03月31日, オッズ
 var_dump(Crawler::crawlOdds('2017-03-31', 24)); // 2017年03月31日, 大村, オッズ
