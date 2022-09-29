@@ -11,12 +11,12 @@ use DI\ContainerBuilder;
 class Crawler
 {
     /**
-     * @var \Boatrace\Analytics\Cherry\Blossom\MainCrawler
+     * @var \Boatrace\Analytics\Cherry\Blossom\Win\Odds\MainCrawler
      */
     protected $crawler;
 
     /**
-     * @var \Boatrace\Analytics\Cherry\Blossom\Crawler
+     * @var \Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawler
      */
     protected static $instance;
 
@@ -26,7 +26,7 @@ class Crawler
     protected static $container;
 
     /**
-     * @param  \Boatrace\Analytics\Cherry\Blossom\MainCrawler  $crawler
+     * @param  \Boatrace\Analytics\Cherry\Blossom\Win\Odds\MainCrawler  $crawler
      * @return void
      */
     public function __construct(MainCrawler $crawler)
@@ -55,7 +55,7 @@ class Crawler
     }
 
     /**
-     * @return \Boatrace\Analytics\Cherry\Blossom\Crawler
+     * @return \Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawler
      */
     public static function getInstance(): Crawler
     {
