@@ -19,9 +19,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawler;
 
-var_dump(Crawler::crawlOdds('2017-03-31')); // 2017年03月31日, オッズ
-var_dump(Crawler::crawlOdds('2017-03-31', 24)); // 2017年03月31日, 大村, オッズ
-var_dump(Crawler::crawlOdds('2017-03-31', 24, 1)); // 2017年03月31日, 大村, 1R, オッズ
+var_dump(Crawler::crawlOdds('2017-03-31')); // 2017年03月31日, 単勝オッズ
+var_dump(Crawler::crawlOdds('2017-03-31', 24)); // 2017年03月31日, 大村, 単勝オッズ
+var_dump(Crawler::crawlOdds('2017-03-31', 24, 1)); // 2017年03月31日, 大村, 1R, 単勝オッズ
 ```
 
 ## License
