@@ -9,7 +9,7 @@
          stopOnFailure="false">
 
     <testsuites>
-        <testsuite name="boatrace-analytics-cherry-blossom">
+        <testsuite name="boatrace-analytics-sakura">
             <directory suffix="Test.php">./tests/</directory>
         </testsuite>
     </testsuites>

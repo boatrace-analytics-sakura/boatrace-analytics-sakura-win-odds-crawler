@@ -1,11 +1,11 @@
 <?php
 
-namespace Boatrace\Analytics\Cherry\Blossom\Win\Odds;
+namespace Boatrace\Analytics\Sakura\Win\Odds;
 
 use DI\Container;
 use DI\ContainerBuilder;
 use Illuminate\Support\Collection;
-use Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawlers\BaseCrawler;
+use Boatrace\Analytics\Sakura\Win\Odds\Crawlers\BaseCrawler;
 
 /**
  * @author shimomo
@@ -74,7 +74,7 @@ class MainCrawler
     }
 
     /**
-     * @param  \Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawlers\BaseCrawler  $crawler
+     * @param  \Boatrace\Analytics\Sakura\Win\Odds\Crawlers\BaseCrawler  $crawler
      * @param  string                                                            $date
      * @param  int                                                               $seconds
      * @return array
@@ -93,7 +93,7 @@ class MainCrawler
     }
 
     /**
-     * @param  \Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawlers\BaseCrawler  $crawler
+     * @param  \Boatrace\Analytics\Sakura\Win\Odds\Crawlers\BaseCrawler  $crawler
      * @param  string                                                            $date
      * @param  int                                                               $raceNumber
      * @param  int                                                               $seconds
@@ -111,7 +111,7 @@ class MainCrawler
     }
 
     /**
-     * @param  \Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawlers\BaseCrawler  $crawler
+     * @param  \Boatrace\Analytics\Sakura\Win\Odds\Crawlers\BaseCrawler  $crawler
      * @param  string                                                            $date
      * @param  int                                                               $stadiumId
      * @param  int                                                               $seconds
@@ -130,7 +130,7 @@ class MainCrawler
 
     /**
      * @param  string  $name
-     * @return \Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawlers\BaseCrawler
+     * @return \Boatrace\Analytics\Sakura\Win\Odds\Crawlers\BaseCrawler
      */
     public function getCrawler(string $name): BaseCrawler
     {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Boatrace\Analytics\Cherry\Blossom\Win\Odds\Tests\Crawlers;
+namespace Boatrace\Analytics\Sakura\Win\Odds\Tests\Crawlers;
 
 use Goutte\Client as Goutte;
-use Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawlers\StadiumCrawler;
+use Boatrace\Analytics\Sakura\Win\Odds\Crawlers\StadiumCrawler;
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
 /**
@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 class StadiumCrawlerTest extends PHPUnitTestCase
 {
     /**
-     * @var \Boatrace\Analytics\Cherry\Blossom\StadiumCrawler
+     * @var \Boatrace\Analytics\Sakura\StadiumCrawler
      */
     protected $crawler;
 

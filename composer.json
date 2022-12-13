@@ -1,6 +1,6 @@
 {
-    "name": "boatrace-analytics-cherry-blossom/boatrace-analytics-cherry-blossom-win-odds-crawler",
-    "description": "The Boatrace Analytics Cherry Blossom Win Odds Crawler.",
+    "name": "boatrace-analytics-sakura/boatrace-analytics-sakura-win-odds-crawler",
+    "description": "The Boatrace Analytics Sakura Win Odds Crawler.",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "boatrace-analytics-cherry-blossom/boatrace-analytics-cherry-blossom-converter": "^1.0",
+        "boatrace-analytics-sakura/boatrace-analytics-sakura-converter": "^2.0",
         "fabpot/goutte": "^4.0",
         "illuminate/support": "^8.0|^9.0",
         "nesbot/carbon": "^2.0",
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Boatrace\\Analytics\\Cherry\\Blossom\\Win\\Odds\\": "src/"
+            "Boatrace\\Analytics\\Sakura\\Win\\Odds\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Boatrace\\Analytics\\Cherry\\Blossom\\Win\\Odds\\Tests\\": "tests/"
+            "Boatrace\\Analytics\\Sakura\\Win\\Odds\\Tests\\": "tests/"
         }
     }
 }

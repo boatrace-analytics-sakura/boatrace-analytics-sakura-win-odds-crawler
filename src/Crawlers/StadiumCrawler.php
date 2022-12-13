@@ -1,9 +1,9 @@
 <?php
 
-namespace Boatrace\Analytics\Cherry\Blossom\Win\Odds\Crawlers;
+namespace Boatrace\Analytics\Sakura\Win\Odds\Crawlers;
 
 use Goutte\Client as Goutte;
-use Boatrace\Analytics\Cherry\Blossom\Converter;
+use Boatrace\Analytics\Sakura\Converter;
 use Carbon\CarbonImmutable as Carbon;
 
 /**
